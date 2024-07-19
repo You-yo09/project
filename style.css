@@ -1,0 +1,180 @@
+*,*::before,*::after{
+	box-sizing: border-box;
+	/*outline: solid 1px;*/
+}
+
+
+img{
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	color: inherit;
+}
+body{
+	font-family: "Bruno Ace SC",sans-serif, serif;
+	line-height: 1.5;
+}
+
+
+.container{
+	width: 1296px;
+	margin: 0 auto;
+}
+.h1{
+	font-size: 128px;
+}
+.h2{
+	font-size: 64px;
+}
+.fs-1{
+	font-size: 32px;
+}
+.fs-2{
+	font-size: 24px;
+}
+.fs-3{
+	font-size: 20px;
+}
+.h1-color{
+	color: #00FFA3;
+}
+.d-flex{
+	display: flex;
+}
+.ai-center{
+	align-items: center;
+}
+.jc-end{
+	justify-content: flex-end;
+}
+.jc-sb{
+	justify-content: space-between;
+}
+.felx-dir-cl{
+	flex-direction: column;
+}
+.ai-start{
+	align-items: start;
+}
+
+.mr-24{
+	margin-right: 24px;
+}
+.mr-20{
+	margin-right: 20px;
+}
+.mr-16{
+	margin-right: 16px;
+}
+.mb-24{
+	margin-bottom: 24px;
+}
+.mb-28{
+	margin-bottom: 28px;
+}
+.mb-36{
+	margin-bottom: 36px;
+}
+.mb-32{
+	margin-bottom: 32px;
+}
+
+
+.header{
+	background: #000;
+	color: #D1D1D1;
+	padding: 40px 0;
+}
+.header li{
+	display: block;
+}
+
+/*banner*/
+.banner{
+	background: #000;
+	color: white;
+}
+.banner-title{
+	display: block;
+	text-align:end;
+}
+.button{
+	padding: 12px 24px;
+	border-radius: 32px;
+}
+.button-white{
+	background: white;
+	color: #000;
+}
+.button-black{
+	background: black;
+	color: white;
+}
+
+/*intor*/
+.intro-bg{
+	background-image: url("img/background-img.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 160px 0;
+}
+.intor-des{
+	width: 526px;
+	color: white;
+}
+
+/*about*/
+.about{
+	padding: 160px 0;
+}
+.about-list{
+	width: 636px;
+	flex-wrap: wrap;
+	gap: 24px;
+}
+.about-list li{
+	width: 48%;
+	padding: 16px;
+	box-shadow: 4px 4px 4px 0 rgb(0,0,0,0.08);
+}
+.about-des{
+	width: 526px;
+}
+
+/*contact*/
+.contact{
+	background: linear-gradient(#050014 0% , rgb(1, 2, 30, 0.89) 100%);
+	padding: 96px;
+	color: white;
+}
+.social-btn{
+	border-radius: 40px;
+	transition: 0.5s;
+}
+.social-btn:hover{
+	box-shadow: 0px 0px 16px 3px rgba(144,148,255,0.9);
+}
+
+/*project*/
+.projects{
+	padding: 160px 0;
+}
+.pro-title{
+	width: 746px;
+	margin-left: auto;
+	margin-bottom: 16px;
+}
+
+/*footer*/
+.footer{
+	background: #000;
+	padding: 40px 0;
+}
+.footer p{
+	text-align: center;
+	color: white;
+}
